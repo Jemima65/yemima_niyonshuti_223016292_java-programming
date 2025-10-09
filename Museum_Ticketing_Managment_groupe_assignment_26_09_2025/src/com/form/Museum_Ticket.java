@@ -25,7 +25,7 @@ public class Museum_Ticket extends JFrame {
 		setTitle("Museum ticket");
 		setSize(900,600);
 		setLayout(new BorderLayout());
-		if (role.equalsIgnoreCase("admin")){
+		if (role.equalsIgnoreCase("customer")){
 			
 			tabs.add("user",new UserPanel());
 			tabs.add("ticket",new TicketPanel());
